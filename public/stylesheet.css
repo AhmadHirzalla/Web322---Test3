@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    text-align: left;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em;
+  }
+  

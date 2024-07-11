@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Ahmad Hirzala's Express App</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/user">Users</a></li>
+        <li class="nav-item"><a class="nav-link" href="/products">Products</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container mt-5">
+    <h1>Welcome to the Home Page</h1>
+    <p><a href="/user" class="btn btn-primary">View Users</a></p>
+    <p><a href="/products" class="btn btn-primary">View Products</a></p>
+    <p><a href="/products/greaterthan3" class="btn btn-primary">View Products with ID greater than 3</a></p>
+  </div>
+</body>
+</html>
